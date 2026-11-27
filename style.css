@@ -1,3 +1,32 @@
+:focus-visible {
+  outline: 2px solid #3d5673;
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  margin: 0.2rem;
+  transform: translateY(-250%);
+}
+
+.skip-link:focus-visible {
+  position: static;
+  display: inline-block;
+  transform: translateY(0);
+}
+
+body{
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #F4F7FB;
+  color: 	#172033;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 40em) {
   /* TODO */
 }
