@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- TODO (tmavý režim): po přidání tmavého schématu změňte content na "light dark" -->
   <meta name="color-scheme" content="light">
-  <title>TODO: Jméno Příjmení – osobní stránka</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Filip Weiss – osobní stránka</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#obsah">Přejít na obsah</a>
 
   <header class="site-header">
-    <h1>TODO: Jméno Příjmení</h1>
-    <p>TODO: jedna věta o vás.</p>
+    <h1>Filip Weiss</h1>
+    <p>Student informačních technologií</p>
     <nav aria-label="Hlavní navigace">
       <ul>
         <li><a href="#o-mne">O mně</a></li>
@@ -31,22 +31,42 @@
       <!-- TODO: vložte fotku nebo obrázek do složky img/, odkomentujte řádek níže
            a vyplňte výstižný alt (u čistě dekorativního obrázku alt prázdný):
       -->
-      <p>TODO: pár vět o vás.</p>
+      <img src="img/profil.png" alt="Profilový obrázek">
+      <p>
+        Jsem student střední školy se zájmem o informační technologie. Rád se učím novým věcem a pracuji na projektech. Ve volném čase se věnuji svým přátelům a koníčkům.
+      </p>
     </section>
 
     <section id="projekty" aria-labelledby="projekty-nadpis">
       <h2 id="projekty-nadpis">Projekty</h2>
       <!-- TODO: alespoň tři položky, každá s obrázkem. Zkopírujte celý prvek article a upravte ho. -->
       <article class="card">
-        <h3>TODO: název projektu</h3>
-        <p>TODO: stručný popis projektu.</p>
+        <h3>Mikro Omega</h3>
+        <img src="img/mikroOmega.png" alt="Záběr ze hry Mikro Omega">
+        <p>
+          Jednoduchá 2D hra napsaná v jazyce Java. Hráč v ní ovládá vesmírnou loď a snaží se přežít co nejdéle ničením a vyhýbáním se okolních asteroidů.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Ostrov</h3>
+        <img src="img/ostrov.png" alt="Ukázka textové hry Ostrov zobrazená v terminálu">
+        <p>
+          Jednoduchá textová hra napsaná v jazyce Java, která běží v terminálu. Hráč je trosečník na opuštěném ostrově a snaží se opravit vysílačku, aby si zavolal pomoc.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Horská chata Vyhlídka</h3>
+        <img src="img/web.png" alt="Náhled stránky">
+        <p>
+          Responzivní webová stránka fiktivní horské chaty.
+        </p>
       </article>
     </section>
 
     <section id="dovednosti" aria-labelledby="dovednosti-nadpis">
       <h2 id="dovednosti-nadpis">Dovednosti</h2>
       <table>
-        <caption>TODO: popisek tabulky</caption>
+        <caption>Technické dovednosti</caption>
         <thead>
           <tr>
             <th scope="col">Dovednost</th>
@@ -55,8 +75,28 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">TODO: dovednost</th>
-            <td>TODO: úroveň</td>
+            <th scope="row">Webdesign</th>
+            <td>Střední</td>
+          </tr>
+          <tr>
+            <th scope="row">Java</th>
+            <td>Pokročilý</td>
+          </tr>
+          <tr>
+            <th scope="row">C#</th>
+            <td>Pokročilý</td>
+          </tr>
+          <tr>
+            <th scope="row">Python</th>
+            <td>Střední</td>
+          </tr>
+          <tr>
+            <th scope="row">Linux</th>
+            <td>Střední</td>
+          </tr>
+          <tr>
+            <th scope="row">SQL</th>
+            <td>Začátečník</td>
           </tr>
         </tbody>
       </table>
@@ -66,14 +106,14 @@
       <h2 id="kontakt-nadpis">Kontakt</h2>
       <address>
         <!-- TODO: e-mail jako odkaz (mailto:), případně město nebo odkaz na profil -->
-        <p>E-mail: <a href="mailto:TODO">TODO</a></p>
+        <p>GitHub: <a href="https://github.com/weissik">Můj profil na GitHubu</a></p>
       </address>
     </section>
 
   </main>
 
   <footer>
-    <p>© TODO: rok a jméno</p>
+    <p>© Filip Weiss 2026</p>
   </footer>
 </body>
 </html>
